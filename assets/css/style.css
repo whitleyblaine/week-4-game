@@ -6,7 +6,7 @@
 
 #instructions {
   background-color: beige;
-  height: 300px;
+  height: 200%;
   font-size: 100%;
   color: #000;
 }
@@ -15,12 +15,19 @@
   text-align: center;
 }
 
+#instructions p:first-child {
+  padding-top: 10px;
+}
+
 #goalScore {
   background-color: green;
   color: #000;
   height: 100px;
   margin-top: 10px;
   width: 30%;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
 }
 
 #winsLosses {
@@ -37,16 +44,21 @@
   position: relative;
 }
 
-#goalScore {
-  color: white;
-  font-size: 20px;
-}
-
 #currentScore {
-  background-color: green;
+  background-color: red;
   color: #fff;
   font-size: 20px;
   height: 100px;
-  width: 200px;
   margin-top: 10px;
+  width: 30%;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+#table {
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
 }
