@@ -1,19 +1,17 @@
 .page-header {
   background-color: orange;
   color: #fff;
-  width: 90%;
+  text-align: center;
 }
 
 #instructions {
   background-color: beige;
   height: 300px;
-  width: 40%;
   font-size: 100%;
-  color: #black;
+  color: #000;
 }
 
 #instructions p {
-  width: 90%;
   text-align: center;
 }
 
@@ -21,25 +19,22 @@
   background-color: green;
   color: #000;
   height: 100px;
-  width: 200px;
   margin-top: 10px;
-  display: inline-block;
+  width: 30%;
 }
 
 #winsLosses {
   height: 170px;
-  width: 100px;
   background-color: green;
-  display: inline-block;
-  margin-left: 100px;
-  margin-top: 10px;
   color: white;
   font-size: 20px;
+  width: 30%;
 }
 
 .imgDiv {
   display: inline-block;
-  margin: 20px 10px 10px 10px;
+  margin: 10px;
+  position: relative;
 }
 
 #goalScore {

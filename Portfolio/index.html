@@ -13,33 +13,26 @@
     <h1>Crystals Collector v1.0<br><small>So cool!</small></h1>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div clas="col-md-6">
-        <div id="instructions"><p>You will be given a random number at the start of the game.</p>
-          <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-          <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-          <p>The value of each crystal is hidden from you until you click on it.</p>
-          <p>Each time when the game starts, the game will change the values of each crystal.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="row">
-          <div id="goalScore"><span id="randomScore"></span></div>
-          <div id="winsLosses"><span id="winLossCount"></span></div>
-        </div>
-        <div class="row">
-          <div id="crystal1" class="imgDiv"><img src="http://lorempixel.com/75/75/people/"></div>
-          <div id="crystal2" class="imgDiv"><img src="http://lorempixel.com/75/75/nature/"></div>
-          <div id="crystal3" class="imgDiv"><img src="http://lorempixel.com/75/75/city/"></div>
-          <div id="crystal4" class="imgDiv"><img src="http://lorempixel.com/75/75/animals/"></div>
-        </div>
-        <div class="row">
-          <div id="currentScore"></div>
-        </div>
-      </div>
-    </div>
+  <div id="instructions"><p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
 
+  <div id="currentScore"></div>
+  <div id="winsLosses"><span id="winLossCount"></span></div>
+  <div id="goalScore"><span id="randomScore"></span></div>
+  <table>
+    <tr>
+      <td><div id="crystal1" class="imgDiv"><img src="assets/images/amBall.jpg"></div></td>
+      <td><div id="crystal2" class="imgDiv"><img src="assets/images/amCryst.jpg"></div></td>
+    </tr>
+    <tr>
+      <td><div id="crystal3" class="imgDiv"><img src="assets/images/blueCryst.png"></div></td>
+      <td><div id="crystal4" class="imgDiv"><img src="assets/images/whiteCryst.jpg""></div></td>
+    </tr>
+  </table>
     <script src="assets/javascript/game.js"></script>
   </div>
 
