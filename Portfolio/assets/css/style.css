@@ -1,0 +1,57 @@
+.page-header {
+  background-color: orange;
+  color: #fff;
+  width: 40%;
+}
+
+#instructions {
+  background-color: beige;
+  height: 300px;
+  width: 40%;
+  font-size: 100%;
+  color: #black;
+}
+
+#instructions p {
+  width: 90%;
+  text-align: center;
+}
+
+#goalScore {
+  background-color: green;
+  color: #000;
+  height: 100px;
+  width: 200px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#winsLosses {
+  height: 170px;
+  width: 100px;
+  background-color: green;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.imgDiv {
+  display: inline-block;
+  margin: 20px 10px 10px 10px;
+}
+
+#goalScore {
+  color: white;
+  font-size: 20px;
+}
+
+#currentScore {
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  margin-top: 10px;
+}
