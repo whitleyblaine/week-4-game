@@ -36,13 +36,11 @@
 
   function winLose() {
     if(currentScoreVal > randomizedScore) {
-      reset();
       alert("YOU LOSE!");
       losses += 1;
       reset();
     };
     if (currentScoreVal == randomizedScore) {
-      reset();
       alert("YOU WIN!!!");
       wins += 1;
       reset();
