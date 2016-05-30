@@ -5,7 +5,6 @@
   var crystalTwoVal;
   var crystalThreeVal;
   var crystalFourVal;
-  var crystalArr;
   var currentScoreVal;
 
   function init() {
@@ -16,7 +15,6 @@
     crystalTwoVal = Math.floor(1 + (Math.random() * 12));
     crystalThreeVal = Math.floor(1 + (Math.random() * 12));
     crystalFourVal = Math.floor(1 + (Math.random() * 12));
-    crystalArr = [];
     currentScoreVal = 0;
   }
 
@@ -26,7 +24,6 @@
     crystalTwoVal = Math.floor(1 + (Math.random() * 12));
     crystalThreeVal = Math.floor(1 + (Math.random() * 12));
     crystalFourVal = Math.floor(1 + (Math.random() * 12));
-    crystalArr = [];
     currentScoreVal = 0;
     $('#winsLosses').html("<p>Wins: " + wins + '<br>' + "<p>Losses: " + losses);
     $('#goalScore').html("Goal Score: " + randomizedScore);
@@ -47,13 +44,6 @@
     };
   }
 
-  function addPoints() {
-    for(var i=0; i <= crystalArr.length; i++) {
-    currentScoreVal += crystalArr[i];
-    };
-  };
-  
-
 
   // // random number checker
   // var sampleArr = [];
@@ -73,28 +63,24 @@
   // Crystal click functions
 
   $('#crystal1').click(function() {
-    crystalArr.push(crystalOneVal);
     currentScoreVal += crystalOneVal;
     $('#currentScore').html('<p>Your total score is: ' + currentScoreVal);
     winLose();
   });
 
   $('#crystal2').click(function() {
-    crystalArr.push(crystalTwoVal);
     currentScoreVal += crystalTwoVal;
     $('#currentScore').html('<p>Your total score is: ' + currentScoreVal);
     winLose();
   });
 
   $('#crystal3').click(function() {
-    crystalArr.push(crystalThreeVal);
     currentScoreVal += crystalThreeVal;
     $('#currentScore').html('<p>Your total score is: ' + currentScoreVal);
     winLose();
   });
 
   $('#crystal4').click(function() {
-    crystalArr.push(crystalFourVal);
     currentScoreVal += crystalFourVal;
     $('#currentScore').html('<p>Your total score is: ' + currentScoreVal);
     winLose();
